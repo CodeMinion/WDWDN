@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scritps\BadSwitch.cs">
+    <Files>
+      <File FileName="Assets\Scritps\KillBox.cs" Line="19" Column="4" />
+      <File FileName="Assets\Scritps\GoodSwitch.cs" Line="24" Column="33" />
+      <File FileName="Assets\Scritps\BadSwitch.cs" Line="4" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
