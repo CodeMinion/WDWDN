@@ -302,6 +302,11 @@ public class OVRPlayerController : MonoBehaviour
 		{
 			Jump();
 		}
+
+		if(Input.GetKey(KeyCode.KeypadEnter))
+		{
+			Jump();
+		}
 	}
 
 	/// <summary>
