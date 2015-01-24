@@ -41,7 +41,7 @@ Icon
 .AppleDB
 .AppleDesktop
 .apdisk
-\Library\*
-\Temp\*
-\obj\*
-\ProjectSettings\*
+Library/*
+Temp/*
+obj/*
+ProjectSettings/*
