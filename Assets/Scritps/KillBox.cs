@@ -20,4 +20,12 @@ public class KillBox : MonoBehaviour {
 			Application.LoadLevel(Application.loadedLevel);
 		}
 	}
+
+	void OnCollisionEnter(Collision collision) 
+	{
+		if(collision.gameObject.tag == "Player")
+		{
+			Application.LoadLevel(Application.loadedLevel);
+		}
+	}
 }

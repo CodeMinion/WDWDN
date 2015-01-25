@@ -9,19 +9,23 @@ public class KillerTurret : MonoBehaviour {
 
 	public GameObject instantiate;
 	public GameObject instantiateTarget;
-		
+
+	public float timer = 0f;
+	public float fireTime = 0.1f;	
 	// Use this for initialization
 	void Start () {
 		maxAngle = 360f - minAngle;
-		Time.timeScale = 0.4f;
+		//Time.timeScale = 0.2f;
 	}
 
 	// Update is called once per frame
 	void Update () {
-		if ((int)Time.timeSinceLevelLoad % 2 == 0) 
-		{
-			GameObject temp = (GameObject) GameObject.Instantiate(instantiate, instantiateTarget.transform.position, instantiate.transform.rotation);
-			Destroy(temp, 20f);
+		timer += Time.deltaTime;
+		
+		while(timer > fireTime){
+			GameObject temp = (GameObject) GameObject.Instantiate(instantiate, instantiateTarget.transform.position, instantiateTarget.transform.localRotation);
+			Destroy(temp, 5f);
+			timer -= fireTime;
 		}
 
 		if (deltaPerSecond > 0 && 
