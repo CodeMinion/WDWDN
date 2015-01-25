@@ -21,6 +21,7 @@ public class GoodSwitch : MonoBehaviour {
 			if(toActivate != null)
 			{
 				toActivate.SetActive(true);
+
 				gameObject.SetActive(false);
 			}
 		}
