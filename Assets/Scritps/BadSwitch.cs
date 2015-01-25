@@ -20,6 +20,9 @@ public class BadSwitch : MonoBehaviour {
 		{
 			if(toDetonate != null)
 			{
+				// Rene: Tell your object to handle the detonation itself.
+				toDetonate.SendMessage("detonate", SendMessageOptions.DontRequireReceiver);
+
 				toDetonate.SetActive(false);
 
 			}
