@@ -1,18 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-<<<<<<< Updated upstream
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scritps\GoodSwitch.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scritps\KillBox.cs">
     <Files>
-      <File FileName="Assets\Scritps\ReturnTime.cs" Line="8" Column="17" />
-      <File FileName="Assets\Scritps\KillerTurret.cs" Line="25" Column="23" />
-      <File FileName="Assets\Scritps\KillBox.cs" Line="17" Column="3" />
+      <File FileName="Assets\OVR\Scripts\Util\OVRPlayerController.cs" Line="295" Column="40" />
+      <File FileName="Assets\Scritps\KillBox.cs" Line="1" Column="1" />
       <File FileName="Assets\Scritps\GoodSwitch.cs" Line="1" Column="1" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scritps/GoodSwitch.cs">
-    <Files>
-      <File FileName="Assets/Scritps/KillBox.cs" Line="22" Column="3" />
-      <File FileName="Assets/Scritps/GoodSwitch.cs" Line="22" Column="5" />
->>>>>>> Stashed changes
+      <File FileName="Assets\Scritps\BadSwitch.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
