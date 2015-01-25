@@ -3,10 +3,10 @@ using System.Collections;
 
 public class PlayOnAquire : MonoBehaviour {
 
-	private AudioSource clip;
+	private AudioSource source;
 	// Use this for initialization
 	void Start () {
-		clip = GetComponent<AudioSource> ();
+		source = GetComponent<AudioSource> ();
 	}
 	
 	// Update is called once per frame
@@ -18,9 +18,24 @@ public class PlayOnAquire : MonoBehaviour {
 	{
 		if(col.gameObject.tag == "Player")
 		{
-			if(clip != null && !clip.isPlaying)
+			source = col.gameObject.GetComponent<AudioSource>();
+			if(source != null )
 			{
-				clip.Play();
+				source.PlayOneShot(source.clip);
+				Debug.Log("Playing SFX");
+			}
+		}
+	}
+
+	void OnCollisionEnter(Collision col)
+	{
+		if(col.gameObject.tag == "Player")
+		{
+			source = col.gameObject.GetComponent<AudioSource>();
+			if(source != null )
+			{
+				source.PlayOneShot(source.clip);
+				Debug.Log("Playing SFX");
 			}
 		}
 	}

@@ -1,11 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scritps\KillerTurret.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scritps\MenuScript.cs">
     <Files>
-      <File FileName="Assets\Scritps\KillerTurret.cs" Line="18" Column="5" />
-      <File FileName="Assets\Scritps\ReturnTime.cs" Line="11" Column="1" />
-      <File FileName="Assets\Scritps\KillBox.cs" Line="20" Column="51" />
+      <File FileName="Assets\OVR\Scripts\Util\OVRPlayerController.cs" Line="295" Column="40" />
+      <File FileName="Assets\Scritps\KillBox.cs" Line="1" Column="1" />
       <File FileName="Assets\Scritps\GoodSwitch.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scritps\BadSwitch.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scritps\MenuScript.cs" Line="15" Column="59" />
+      <File FileName="Assets\Scritps\PlayOnAquire.cs" Line="35" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
